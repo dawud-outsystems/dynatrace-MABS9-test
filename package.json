@@ -101,13 +101,13 @@
   },
   "name": "@dynatrace/cordova-plugin",
   "scripts": {
-    "install": "node ./scripts/InstallCap.js",
+    "install": "node ./scripts/installCap.js",
     "lint": "eslint --cache src/**/*.ts --ignore-pattern .gitignore",
     "lint:spec": "eslint --cache tests/**/*.ts --cache-file tests/.eslintcache --ignore-pattern .gitignore",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",
     "tsc": "tsc",
     "tsc:prod": "tsc -p tsconfig-release.json",
-    "uninstall": "node ./scripts/UninstallCap.js"
+    "uninstall": "node ./scripts/uninstallCap.js"
   },
   "typings": "typings/main.d.ts",
   "version": "1.259.2"
