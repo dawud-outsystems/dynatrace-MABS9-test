@@ -40,7 +40,7 @@ exports.getProjectBuilderAsString = exports.getDynatraceConfigAsObject = exports
 var fs_1 = require("fs");
 var path_1 = require("path");
 var Logger_1 = require("../logger/Logger");
-var Ios_1 = require("../Ios");
+var Ios_1 = require("../ios");
 var PathHelper_1 = require("./PathHelper");
 var searchFilesInDirectoryRecursive = function (searchPath, fileExt, filteredDirectories) { return __awaiter(void 0, void 0, void 0, function () { return __generator(this, function (_a) {
     return [2, _searchFilePatternInDirectory(searchPath, [], fileExt, filteredDirectories, true, compareFileNames)];
