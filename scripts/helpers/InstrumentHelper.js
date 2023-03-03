@@ -38,7 +38,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.instrument = exports.parseCommandLine = exports.CONFIG_JSAGENT_FILE = exports.CONFIG_FILE = exports.CONFIG_PLIST_FILE = exports.CONFIG_GRADLE_FILE = void 0;
 var path_1 = require("path");
-var Android_1 = require("../Android");
+var Android_1 = require("../android");
 var ConfigurationReader_1 = require("../config/ConfigurationReader");
 var DownloadAgent_1 = require("../DownloadAgent");
 var HtmlUtil_1 = require("../html/HtmlUtil");

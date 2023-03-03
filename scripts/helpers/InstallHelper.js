@@ -38,7 +38,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.parsedCapPackageJson = exports.parsedPluginPackageJson = exports.parsedApplicationPackageJson = exports.removeScriptHookAndDeps = exports.addScriptHook = exports.isCapVersionThreeOneOrHigher = exports.modifyConfigXmlUninstall = exports.modifyConfigXmlInstall = exports.removePListModification = exports.removeGradleModification = exports.modifyPackageJson = exports.modifyPackageJsonCap = exports.CAP_HOOK = exports.IONIC_HOOK = void 0;
 var path_1 = require("path");
-var Android_1 = require("../Android");
+var Android_1 = require("../android");
 var Ios_1 = require("../ios");
 var Logger_1 = require("../logger/Logger");
 var FileHelper_1 = require("./FileHelper");
