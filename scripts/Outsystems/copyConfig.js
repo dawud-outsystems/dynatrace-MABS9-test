@@ -18,8 +18,8 @@ module.exports = function (context) {
         path  = context.requireCordovaModule("path");
     }
 
-    var wwwPath = path.join(context.opts,"DynaTest");
-    var configPath = path.join(wwwPath, "dynatraceConfig");
+    var wwwPath = path.join(context.opts.projectRoot,"www");
+    var configPath = path.join(wwwPath, "DynaTest");
     files = fs.readdirSync(configPath);
     if(files.length >0){
         copyFolderRecursiveSync(configPath, path.join(context.opts.projectRoot));
