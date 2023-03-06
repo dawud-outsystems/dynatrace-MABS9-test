@@ -18,7 +18,7 @@ module.exports = function (context) {
         path  = context.requireCordovaModule("path");
     }
 
-    var wwwPath = path.join(context.opts.projectRoot,"DynaTest");
+    var wwwPath = path.join(context.opts,"DynaTest");
     var configPath = path.join(wwwPath, "dynatraceConfig");
     files = fs.readdirSync(configPath);
     if(files.length >0){
